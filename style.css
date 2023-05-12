@@ -2,8 +2,12 @@
     margin: 0px;
     padding: 0px;
 
+
 }
 
+body {
+    background-color: #F1E9DB
+}
 
 #navbarNav > ul li > .nav-link {
     color: white;
@@ -27,9 +31,15 @@
 }
 
 .menu {
-    margin-left: 25%;
+    margin-left: 27%;
 }
 
+.kicksname {
+    font-family: 'Futura PT', sans-serif;
+    color: black;
+    margin-left: 40%;
+
+}
 
 /* HOVER ANIMATION */
 .hover-underline-animation {
@@ -54,4 +64,23 @@
   .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+
+  .carousel-item {
+        height: 100%;
+        color: black;
+        background-position: center;
+     
+
+
+  }
+
+  .container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 50px;
+
   }
