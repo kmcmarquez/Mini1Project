@@ -4,3 +4,54 @@
 
 }
 
+
+#navbarNav > ul li > .nav-link {
+    color: white;
+    font-family: 'Futura PT', sans-serif;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 0px;
+
+}
+
+.navbarcolor {
+    background-color: black;
+    
+}
+
+.navbar-brand {
+    color: #EAEAEA;
+    font-family: 'Futura PT', sans-serif;
+   
+}
+
+.menu {
+    margin-left: 25%;
+}
+
+
+/* HOVER ANIMATION */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #e1ddd4;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #e1ddd4;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
