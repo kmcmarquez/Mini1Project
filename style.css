@@ -17,6 +17,7 @@ body {
     margin-right: 16px;
     padding-bottom: 0px;
     
+    
 
 }
 
@@ -44,6 +45,59 @@ body {
   text-align: center;
 
 }
+
+.pdct-link {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+/* Men's Page */
+
+.form-control {
+    border-radius: 0px;
+
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+#categories {
+  list-style-type: none;
+  
+}
+
+.card,.card-img-top {
+  border-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+
+.btn-custom-primary {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-custom-primary:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.btn-custom-secondary {
+  background-color: #E1BB80;
+  color: black;
+}
+
+.btn-custom-secondary:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+
+/* Men's Page End */
 
 
 
@@ -125,7 +179,7 @@ body {
   
   .people {
     padding:50px 0;
-    cursor: pointer;
+    
   }
   .item {
     margin-bottom:30px;
@@ -137,11 +191,11 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    height:250px;
+    height:30vh;
     position:relative;
     overflow:hidden;
     transition: .35s;
-    
+    font-family: 'Futura PT', sans-serif;
     
     
   }
@@ -210,6 +264,12 @@ body {
     background-color: #f5f0e8;
 
   }
+
+  .card-title {
+    font-family: 'Futura PT', sans-serif;
+
+  }
+
 
   /* AMPOOTER */
 
