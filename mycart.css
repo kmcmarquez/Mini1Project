@@ -54,9 +54,10 @@ body {
 }
 
 .dropdown-menu {
-  border-radius: 0px;
+    border-radius: 0px;
+  
+  }
 
-}
 
 .card-body {
   text-align: center;
@@ -171,7 +172,7 @@ body {
 
 .container {
 
-    background-color: #F1E9DB;
+    background-color: #f7efe6;
     
 }
 
