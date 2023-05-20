@@ -417,7 +417,7 @@ display: flex;
 /* Footer left */
 
 .footer-distributed .footer-left{
-  
+  margin: auto;
 }
 
 
@@ -459,7 +459,7 @@ display: flex;
 /* Footer Center */
 
 .footer-distributed .footer-center{
- 
+  margin: auto;
 }
 
 .footer-distributed .footer-center i{
@@ -517,7 +517,7 @@ content: none;
 /* Footer Right */
 
 .footer-distributed .footer-right{
- 
+  margin: auto;
 }
 
 .footer-distributed .footer-company-about{
