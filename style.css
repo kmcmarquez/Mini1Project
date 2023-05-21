@@ -114,8 +114,14 @@ body {
 }
 
 .slider-btn .btn-2{
-  color: #EAEAEA;
+  color: white;
   background-color: black;
+  
+}
+
+.btn-2:hover {
+  
+  color: #f1dab2;
 }
 
 /* Men's Page */
